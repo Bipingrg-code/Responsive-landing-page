@@ -31,10 +31,23 @@ body {
       text-decoration: none;
       color: #ccc;
   }
+  .animation {
+    opacity: 0;
+    transform: translateX(-300px);
+    transition: all 0.7s ease-out;
+    transition-delay: 0.4s;
+
+}
+
+.scroll-animation {
+    opacity: 1;
+    transform: translateX(0);
+}
   /* section */
 .section{
       padding: 2rem;
       font-size: 2rem;
+      
  }
  .section-head{
      font-size: 2.5rem;
